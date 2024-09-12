@@ -1,0 +1,21 @@
+name: Windows - LiteManger
+
+on:
+   work flme disratch:
+
+jobs:
+  build:
+    name: Start Building...
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+       - name: Downloading Installing. Essentials
+          run: I
+           Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm win-10 github rdp/-/raw/main/downloads.bat" -OutFile "Down
+           cmd / c Downloads.bat
+
+      - name: Connect to LiteManager
+         run: cmd /c show.bat
+      - name: time Counter
+         run: cmd /c loop.bat
